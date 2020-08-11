@@ -1,0 +1,154 @@
+body {
+    background-color: coral;
+    margin: 0px;
+}
+
+.container-flight1 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 4px;
+    width: 400px;
+    height: 220px;
+    position: relative;
+    top: 200px;
+    left: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-flight2 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 4px;
+    width: 400px;
+    height: 220px;
+    position: relative;
+    top: 340px;
+    left: 150px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-flight3 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 4px;
+    width: 400px;
+    height: 220px;
+    position: relative;
+    bottom: 240px;
+    left: 735px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-flight4 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 4px;
+    width: 400px;
+    height: 220px;
+    position: relative;
+    bottom: 100px;
+    left: 735px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.flightgroup1 {
+    position: relative;
+    bottom: 75px;
+}
+
+#flight1 {
+    position: relative;
+    top: 108px;
+    left: 10px;
+}
+
+#namaflight1 {
+    font-weight: 500;
+    position: relative;
+    top: 83px;
+    left: 20px;
+}
+
+#pergigroup1 {
+    position: relative;
+    top: 58px;
+    left: 105px;
+}
+
+#iconf {
+    position: relative;
+    left: 200px;
+    top: 5px;
+}
+
+#pulanggroup1 {
+    position: relative;
+    left: 270px;
+    bottom: 15px;
+}
+
+#lamagroup1 {
+    position: relative;
+    left: 330px;
+    bottom: 65px;
+}
+
+#harga1 {
+    font-size: 130%;
+    color: red;
+    font-weight: 500;
+    position: relative;
+    left: 500px;
+    bottom: 115px;
+}
+
+#harga2 {
+    font-size: 130%;
+    color: red;
+    font-weight: 500;
+    position: relative;
+    left: 300px;
+    bottom: 115px;
+}
+
+#person1 {
+    position: relative;
+    left: 628px;
+    bottom: 140px;
+}
+
+#select1 {
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+#select2 {
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+input[type=submit] {
+    background-color: red;
+    width: 185px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    bottom: 145px;
+    left: 500px;
+}
+
+.buy {
+    position: relative;
+    top: 100px;
+    right: 400px;
+}

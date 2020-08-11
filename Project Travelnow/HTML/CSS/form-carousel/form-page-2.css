@@ -1,0 +1,182 @@
+.containerp {
+    background-color: mintcream;
+    width: 620px;
+    height: 320px;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    opacity: 75%;
+}
+
+h1 {
+    font-size: x-large;
+    position: relative;
+    left: 10px;
+}
+
+#box {
+    border: none;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 10px;
+}
+
+#asal {
+    position: relative;
+    bottom: 25px;
+    width: 100px;
+    border: none;
+    left: 40px;
+}
+
+#right {
+    width: 30px;
+    position: relative;
+    right: 55px;
+}
+
+#left {
+    width: 30px;
+    position: relative;
+    right: 55px;
+}
+
+#tujuan {
+    position: relative;
+    bottom: 25px;
+    width: 100px;
+    border: none;
+    left: 40px;
+}
+
+#to {
+    position: relative;
+    bottom: 69px;
+    left: 180px;
+}
+
+#boxx {
+    border: 1px solid black;
+    background-color: white;
+    width: 175px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 10px;
+}
+
+#calendar {
+    position: relative;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 128px;
+}
+
+#box_p {
+    border: none;
+    background-color: white;
+    width: 240px;
+    height: 80px;
+    border-radius: 5px;
+    position: relative;
+    left: 388px;
+    bottom: 140px;
+}
+
+#boxd {
+    border: none;
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 10px;
+    top: 2px;
+}
+
+#man {
+    width: 20px;
+    position: relative;
+    right: 15px;
+}
+
+#number {
+    border: none;
+    position: relative;
+    left: 25px;
+    bottom: 20px;
+}
+
+#umurd {
+    font-size: small;
+    text-align: left;
+    position: relative;
+    bottom: 7px;
+}
+
+#boxc {
+    border: none;
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 90px;
+    bottom: 28px;
+}
+
+#child {
+    width: 20px;
+    position: relative;
+    top: 2px;
+    right: 17px;
+}
+
+#boxb {
+    border: none;
+    background-color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    left: 170px;
+    bottom: 59px;
+}
+
+#baby {
+    width: 20px;
+    position: relative;
+    right: 15px;
+}
+
+#passengers {
+    position: relative;
+    right: 25px;
+}
+
+#chair {
+    width: 20px;
+    position: relative;
+    right: 55px;
+    top: 2px;
+    ;
+}
+
+input[type=submit] {
+    background-color: aliceblue;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    bottom: 240px;
+    left: 190px;
+}

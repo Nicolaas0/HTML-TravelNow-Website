@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+body {
+    background-color: wheat;
+    background-size: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.containerlogo{
+    position: relative;
+    right: 20px;
+}
+
+h1{
+    position: relative;
+    margin-left: 575px;
+    top: 120px;
+    font-family: 'Patua One', cursive;
+}
+
+.logo{
+    position: relative;
+    right:20px;
+}
+
+#logogopay{
+    position: relative;
+    left: 300px;
+    top: 100px;
+    width: 280px;
+    transition: transform 1s;
+    padding: 0px;
+    margin: 0px;
+}
+
+#logogopay:hover {
+    transform: scale(1.25);
+}
+
+#logoovo{
+    position: relative;
+    left: 460px;
+    top: 100px;
+    width: 140px;
+    transition: transform 1s;
+    padding: 0px;
+    margin: 0px;
+}
+
+#logoovo:hover {
+    transform: scale(1.25);
+}
+#logodana{
+    position: relative;
+    max-width: 290px;
+    left: 700px;
+    top: 100px;
+    transition: transform 1s;
+    padding: 0px;
+    margin: 0px;
+}
+
+#logodana:hover{
+    transform: scale(1.25);
+}
+
+.QR-popup, .QR-popup2, .QR-popup3{
+    display: none;
+    position: relative;
+    left: 530px;
+    bottom: 250px;
+}
+
+#imgQR{
+    width: 500px;
+}
+
+button{
+    position: relative;
+    top: 330px;
+}

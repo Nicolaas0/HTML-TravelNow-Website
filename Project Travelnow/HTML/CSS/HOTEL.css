@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+body {
+    background: url(https://w.wallhaven.cc/full/39/wallhaven-3911w9.jpg);
+    background-size: 150%;
+    font-family: ABeeZee;
+}
+
+.container-hotel {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 6px;
+    width: 520px;
+    height: 190px;
+    position: relative;
+    top: 100px;
+    left: 400px;
+}
+
+#namahotel1 {
+    position: relative;
+    top: 0px;
+    left: 115px;
+    font-size: 25px;
+}
+
+#mapfinder {
+    width: 30px;
+    position: relative;
+    top: 80px;
+}
+
+#tipehotel1 {
+    border: 2px solid rgb(10, 125, 255);
+    border-radius: 4px;
+    background: transparent;
+    width: 60px;
+    position: relative;
+    left: 115px;
+    text-align: center;
+    color: rgb(10, 125, 255);
+    font-weight: 100px;
+}
+
+#bintang1 {
+    width: 25px;
+    position: relative;
+    bottom: 30px;
+    left: 180px;
+}
+
+#rating-google {
+    width: 25px;
+    position: relative;
+    left: 28px;
+    top: 5px;
+}
+
+#rating-google3 {
+    width: 25px;
+    position: relative;
+    left: -30px;
+    top: 5px;
+}
+
+#rating-hotel1 {
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+    color: gold;
+}
+
+#total-perating {
+    position: relative;
+    left: 275px;
+    bottom: 44px;
+    color: grey;
+}
+
+#accept {
+    width: 30px;
+    position: relative;
+    left: 115px;
+    top: 5px;
+}
+
+#free-cancel {
+    position: relative;
+    left: 150px;
+    bottom: 25px;
+    border: 2px solid greenyellow;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 40%;
+    color: rgb(6, 177, 43);
+    text-align: center;
+}
+
+#vl {
+    border-left: 2px solid rgb(207, 203, 203);
+    height: 190px;
+    position: relative;
+    left: 390px;
+    position: relative;
+    bottom: 204px;
+}
+
+#harga-asli {
+    position: relative;
+    left: 400px;
+    bottom: 300px;
+    font-size: 90%;
+    color: rgb(83, 82, 82);
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+#harga-diskon {
+    position: relative;
+    left: 400px;
+    bottom: 250px;
+    font-size: 130%;
+    color: red;
+    font-weight: 500;
+}
+
+#check1 {
+    width: 18px;
+    position: relative;
+    left: 400px;
+    bottom: 440px;
+}
+
+#discount {
+    position: relative;
+    left: 425px;
+    bottom: 460px;
+    font-size: 13px;
+    color: rgb(85, 214, 85);
+}
+
+.container-hotel2 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 7px;
+    width: 520px;
+    height: 190px;
+    position: relative;
+    top: 125px;
+    left: 400px;
+}
+
+#hotel2 {
+    position: relative;
+    top: 44px;
+    width: 100px;
+    transform: scaleY(1.9);
+    border-radius: 4px;
+}
+
+#rating-google2 {
+    width: 25px;
+    position: relative;
+    left: -3px;
+    top: 5px;
+}
+
+.container-hotel3 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 7px;
+    width: 520px;
+    height: 190px;
+    position: relative;
+    top: 150px;
+    left: 400px;
+}
+
+.container-hotel4 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 7px;
+    width: 520px;
+    height: 190px;
+    position: relative;
+    top: 175px;
+    left: 400px;
+}
+
+.hotelgroup1 {
+    position: relative;
+    bottom: 95px;
+}
+
+#hotel1 {
+    position: relative;
+    top: 44px;
+    width: 100px;
+    transform: scaleY(1.9);
+    border-radius: 4px;
+}

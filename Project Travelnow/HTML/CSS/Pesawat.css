@@ -1,0 +1,133 @@
+body {
+    background: url(https://w.wallhaven.cc/full/96/wallhaven-96w8e8.png);
+    background-size: 150%;
+    margin: 0px;
+}
+
+.container-flight1 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 8px;
+    width: 400px;
+    height: 220px;
+    position: relative;
+    top: 100px;
+    left: 450px;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-flight2 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 8px;
+    width: 400px;
+    height: 220px;
+    position: relative;
+    top: 150px;
+    left: 450px;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container-flight3 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 4px;
+    width: 400px;
+    height: 220px;
+    position: relative;
+    top: 200px;
+    left: 450px;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flightgroup1 {
+    position: relative;
+    bottom: 95px;
+}
+
+#flight1 {
+    position: relative;
+    top: 108px;
+    left: 10px;
+}
+
+#namaflight1 {
+    font-weight: 500;
+    position: relative;
+    top: 83px;
+    left: 20px;
+}
+
+#pergigroup1 {
+    position: relative;
+    top: 70px;
+    left: 105px;
+}
+
+#iconf {
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+
+#pulanggroup1 {
+    position: relative;
+    left: 270px;
+    bottom: 5px;
+}
+
+#lamagroup1 {
+    position: relative;
+    left: 330px;
+    bottom: 54px;
+}
+
+#harga1 {
+    font-size: 130%;
+    color: red;
+    font-weight: 500;
+    position: relative;
+    left: 500px;
+    bottom: 115px;
+}
+
+#person1 {
+    position: relative;
+    left: 628px;
+    bottom: 140px;
+}
+
+input[type=submit] {
+    background-color: red;
+    width: 185px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    bottom: 145px;
+    left: 500px;
+}
+
+.buy {
+    position: relative;
+    top: 100px;
+    right: 400px;
+}
+
+#map {
+    height: 200px;
+    width: 30%;
+    margin-left: 750px;
+    margin-bottom: 100px;
+    z-index: 1;
+    margin-top: -100px;
+}

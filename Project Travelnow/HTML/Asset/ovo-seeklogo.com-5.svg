@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="25.3998mm" height="25.3998mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2540 2540"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:none}
+    .fil2 {fill:#FEFEFE}
+    .fil1 {fill:#4C3494}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <rect width="2540" height="1545"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0" width="2540" height="2540"/>
+  <g style="clip-path:url(#id0)">
+   <image x="0" y="0" width="2540" height="1545" xlink:href="1456-Logo OVO-7cf62139-7082-4199-90f4-b3a84d178ddd_Images\1456-Logo OVO-7cf62139-7082-4199-90f4-b3a84d178ddd_ImgID1.png"/>
+  </g>
+  <rect class="fil1" y="1270" width="2540" height="1270"/>
+  <path class="fil2" d="M588 1567c184,0 334,151 334,338 0,187 -150,338 -334,338 -185,0 -335,-151 -335,-338 0,-187 150,-338 335,-338zm0 126c115,0 209,95 209,212 0,117 -94,212 -209,212 -116,0 -210,-95 -210,-212 0,-117 94,-212 210,-212zm1364 -126c185,0 335,151 335,338 0,187 -150,338 -335,338 -184,0 -334,-151 -334,-338 0,-187 150,-338 334,-338zm0 126c116,0 210,95 210,212 0,117 -94,212 -210,212 -115,0 -209,-95 -209,-212 0,-117 94,-212 209,-212zm-953 5l203 456c4,8 35,86 132,82l247 -577 0 -69 -211 0 0 108 67 0 -143 352 -160 -352 71 0 0 -108 -267 0 0 108 61 0z"/>
+  <path class="fil2" d="M1277 424c147,0 267,121 267,270 0,150 -120,271 -267,271 -148,0 -268,-121 -268,-271 0,-149 120,-270 268,-270zm0 -162c235,0 427,194 427,432 0,239 -192,433 -427,433 -236,0 -427,-194 -427,-433 0,-238 191,-432 427,-432z"/>
+ </g>
+</svg>

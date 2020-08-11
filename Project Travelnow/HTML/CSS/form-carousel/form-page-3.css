@@ -1,0 +1,94 @@
+.container2 {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50px;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    left: 330px;
+    bottom: 0px;
+    opacity: 75%;
+}
+
+h2 {
+    color: white;
+}
+
+#kereta-asal {
+    position: relative;
+    bottom: 20px;
+}
+
+#asalt {
+    position: relative;
+    left: 100px;
+}
+
+#tujuant {
+    position: relative;
+    left: -80px;
+    top: 60px;
+}
+
+#kereta-tujuan {
+    position: relative;
+    left: -180px;
+    top: 50px;
+}
+
+#tot{
+    position: relative;
+    bottom: 50px;
+    left: 180px;
+}
+
+#tb {
+    color: black;
+}
+
+.tanggal {
+    position: relative;
+    top: 35px;
+}
+
+#number1 {
+    position: relative;
+    left: 185px;
+    top: 20px;
+}
+
+#number2 {
+    position: relative;
+    left: 185px;
+    top: 20px;
+}
+
+#dewasab {
+    position: relative;
+    top: 31px;
+    right: 20px;
+    color: black;
+}
+
+#bayi {
+    position: relative;
+    bottom: 88px;
+    left: 70px;
+    color: black;
+}
+
+#ketbaby {
+    position: relative;
+    top: 20px;
+}
+
+#ketdewasa {
+    position: relative;
+    top: 22px;
+}
+
+#submit-tiket {
+    position: relative;
+    bottom: 60px;
+    left: -5px;
+}

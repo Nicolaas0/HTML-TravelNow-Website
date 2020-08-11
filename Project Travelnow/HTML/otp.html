@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="CSS/forget-password/otp.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password</title>
+</head>
+
+<body>
+    <!-- TABLE -->
+    <div class="container">
+        <div id="forgot">
+            <p align="center"><b>E-mail Confirmation</b></p>
+        </div>
+        <div id="bigmessage">
+            <p align="center">It looks like you requested a new password.</p>
+        </div>
+        <div id="smallmessage">
+            <p align="center">We will send a link on your registered email or One Time Password (OTP) on your mobile to reset your password.</p>
+        </div>
+        <div id "bigmessage">
+            <p align="center">
+                Please enter the OTP Code :
+            </p>
+        </div>
+        <div id="wrapper">
+            <div id="dialog">
+                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                <button class="btn btn-primary btn-embossed" onclick="verify()">Verify</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    function verify() {
+        alert("Kode OTP terverifikasi, silahkan ganti password anda");
+        window.location.replace("new-password.html");
+    }
+</script>
+
+</html>

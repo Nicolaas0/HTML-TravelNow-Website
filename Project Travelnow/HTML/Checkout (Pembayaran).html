@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/45645af739.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/linearicons.css">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/magnific-popup.css">
+    <link rel="stylesheet" href="CSS/jquery-ui.css">
+    <link rel="stylesheet" href="CSS/nice-select.css">
+    <link rel="stylesheet" href="CSS/animate.min.css">
+    <link rel="stylesheet" href="CSS/owl.carousel.css">
+    <link rel="stylesheet" href="CSS/Footer.css">
+    <link rel="stylesheet" href="CSS/Checkout (Pembayaran).css">
+    <link rel="stylesheet" href="CSS/geolo.css">
+
+</head>
+<body>
+    <header id="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-sm-6 col-6 header-top-left">
+                        <ul>
+                            <li><a href="#">Visit Us</a></li>
+                            <li><a href="#">Buy Tickets</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container main-menu">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="index.html"><img src="assets/img/logo.png" height="100" width="100" alt="" title="" /></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="containerlogo">
+    <h1>METODE PEMBAYARAN</h1>
+    <div class="logo">
+    <img id="logogopay" src="Asset/gopay-seeklogo.com-5.svg" alt="" onclick="progress()">
+    <img id="logoovo" src="Asset/ovo-seeklogo.com-5.svg" alt="" onclick="openQR2()">
+    <img id="logodana" src="Asset//Logo DANA (PNG-1080p) - FileVector69.png" alt="" onclick="openQR3()">
+    </div>
+    </div>
+    <div class="QR-popup" id="QR">
+        <img id="imgQR" src="Asset/Gopay.svg" alt="">
+        <button onclick="closeQR()">Back</button>
+    </div>
+    <div class="QR-popup2" id="QR2">
+        <img id="imgQR" src="Asset/ovo.svg" alt="">
+        <button onclick="closeQR2()">Back</button>
+    </div>
+    <div class="QR-popup3" id="QR3">
+        <img id="imgQR" src="Asset/dana.svg" alt="">
+        <button onclick="closeQR3()">Back</button>
+    </div>
+</body>
+<script>
+    function openQR() {
+      document.getElementById("QR").style.display = "block";
+    }
+
+    function openQR2() {
+      document.getElementById("QR2").style.display = "block";
+    }
+
+    function openQR3() {
+      document.getElementById("QR3").style.display = "block";
+    }
+
+    function closeQR() {
+        document.getElementById("QR").style.display = "none";
+    }
+
+    function closeQR2() {
+        document.getElementById("QR2").style.display = "none";
+    }
+    
+    function closeQR3() {
+        document.getElementById("QR3").style.display = "none";
+    }
+
+</script>
+<footer>
+    <footer>
+        <section id="footer">
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <ul class="list-unstyled quick-links">
+                            <img src="Asset/travel_now-removebg-preview.png" height="150" width="150" alt="" title="" />
+                            <li>
+                                <img src="https://ik.imagekit.io/tvlk/image/imageResource/2017/12/13/1513150198216-822560165b4cfa5d5ac17a7987028b03.svg?tr=q-75" sizes="25%" />
+                                <img src="https://ik.imagekit.io/tvlk/image/imageResource/2017/12/13/1513150313470-072f6bdc02c0b73fcf791aa2b2264fbd.svg?tr=q-75" sizes="25%" />
+                                <img src="https://ik.imagekit.io/tvlk/image/imageResource/2017/12/13/1513150321127-5096be77d2a19401b476853e54ba2cc6.svg?tr=q-75" sizes="25%" />
+                                <img src="https://ik.imagekit.io/tvlk/image/imageResource/2019/07/04/1562226590916-2361205eaa5ec2f3e1807157cd842950.svg?tr=q-75" width="20%" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <ul class="list quick-links">
+                            <h5>TravelNow</h5>
+                            <p class="about-us">
+                                Indonesian startup company that provides flight ticket booking services, hotel tickets, tour tickets, transportation services, that are complemented by tour guide services to accompany customers on international holidays to several Asian countries.
+                            </p>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <ul class="list quick-links">
+                            <h5>Download TravelNow App</h5>
+                            <li>
+                                <img src="Asset/Get in google play.png" width="30%" />
+                                <img src="Asset/Download at appstore.png" width="25%" />
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="map"></div>
+                <div class="foot">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5 ">
+                            <ul class="list-unstyled list-inline social text-center ">
+                                <li class="list-inline-item "><a href="# "><i class="fa fa-facebook "></i></a></li>
+                                <li class="list-inline-item "><a href="# "><i class="fa fa-twitter "></i></a></li>
+                                <li class="list-inline-item "><a href="# "><i class="fa fa-instagram "></i></a></li>
+                                <li class="list-inline-item "><a href="# "><i class="fa fa-google-plus "></i></a></li>
+                                <li class="list-inline-item "><a href="# "><i class="fa fa-envelope "></i></a></li>
+                            </ul>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="row ">
+                        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white ">
+                            <p id="travelnow"><u>TravelNow,</u> Indonesian travel start-up company.</p>
+                            <p class="h6">© All right Reversed.<a class="text-green ml-2 ">NZC</a></p>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</footer>
+</html>

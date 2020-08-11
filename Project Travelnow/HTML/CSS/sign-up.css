@@ -1,0 +1,143 @@
+.container {
+    border: 1px solid black;
+    background-color: mintcream;
+    width: 600px;
+    height: 675px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: auto;
+}
+
+#welcome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#command {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    display: block;
+    clear: both;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    display: block;
+    clear: both;
+    word-wrap: break-word;
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+input[type=text] {
+    position: absolute;
+}
+
+.display_name {
+    float: inline-end;
+    width: 425px;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.first_name {
+    float: inline-end;
+    width: 182.5px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 18.5px;
+    padding-left: 20px;
+}
+
+.last_name {
+    float: inline-end;
+    width: 182.5px;
+    height: 30px;
+    margin-top: 18.5px;
+    margin-left: 252.5px;
+    padding-left: 20px;
+}
+
+.email {
+    float: inline-end;
+    width: 425px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 70px;
+    padding-left: 20px;
+}
+
+.password {
+    float: inline-end;
+    width: 425px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 120px;
+    padding-left: 20px;
+}
+
+.confirm_password {
+    float: inline-end;
+    width: 425px;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.country {
+    float: inline-end;
+    width: 425px;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.dob {
+    float: inline-end;
+    width: 341px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.remember {
+    margin-left: 5px;
+    font-size: smaller;
+}
+
+.term {
+    font-size: smaller;
+    color: black;
+    margin-left: 10px;
+}
+
+input[type=submit] {
+    background-color: navy;
+    width: 455px;
+    height: 35px;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 2px 1px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.log_in {
+    margin-left: 120px;
+}

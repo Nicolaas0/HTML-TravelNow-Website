@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/form-carousel/form-page-3.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Tickets</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tiket Kereta Api</h1>
+        <form>
+            <div id="from">
+                <p style="position: relative; left: 10px;">Asal</p>
+                <div id="box">
+                    <img src="icon/right.png" width="30px">
+                    <select id="asalt" style="border: none;">
+                        <option value="Asal">Asal</option>  
+                        <option value="Stasiun Gambir">Stasiun Gambir</option>
+                        <option value="Stasiun Bandung">Stasiun Bandung</option>
+                        <option value="Stasiun Yogyakarta">Stasiun Yogyakarta</option>
+                        <option value="Stasiun Surabaya Gubeng">Stasiun Surabaya Gubeng</option>  
+                        <option value="Stasiun Pasar Senen">Stasiun Pasar Senen</option>
+                        <option value="Stasiun Solo Balapan">Stasiun Solo Balapan</option>
+                        <option value="Stasiun Semarang Tawang">Stasiun Semarang Tawang</option>
+                        <option value="Stasiun Purwokerto">Stasiun Purwokerto</option>
+                        <option value="Stasiun Cirebon">Stasiun Cirebon</option>
+                        <option value="Stasiun Madiun">Stasiun Madiun</option>
+                    </select>
+                </div>
+            </div>
+            <div id="to">
+                <p style="position: relative; left: 10px;">Tujuan</p>
+                <div id="box">
+                    <img src="icon/left.png" width="30px">
+                    <select id="tujuant" style="border: none;">
+                        <option value="Tujuan">Tujuan</option>  
+                        <option value="Stasiun Gambir">Stasiun Gambir</option>
+                        <option value="Stasiun Bandung">Stasiun Bandung</option>
+                        <option value="Stasiun Yogyakarta">Stasiun Yogyakarta</option>
+                        <option value="Stasiun Surabaya Gubeng">Stasiun Surabaya Gubeng</option>  
+                        <option value="Stasiun Pasar Senen">Stasiun Pasar Senen</option>
+                        <option value="Stasiun Solo Balapan">Stasiun Solo Balapan</option>
+                        <option value="Stasiun Semarang Tawang">Stasiun Semarang Tawang</option>
+                        <option value="Stasiun Purwokerto">Stasiun Purwokerto</option>
+                        <option value="Stasiun Cirebon">Stasiun Cirebon</option>
+                        <option value="Stasiun Madiun">Stasiun Madiun</option>
+                    </select>
+                </div>
+            </div>
+            <div id="tanggal" style="position: relative; bottom: 50px;">
+                <p style="position: relative; left: 10px;">Tanggal Berangkat</p>
+                <div id="boxx">
+                    <img src="icon/calendar.png" width="25px" style="margin-left: 5px;">
+                    <input id="calendar" type="date">
+                </div>
+            </div>
+            <div id="boxcheck">
+                <label class="checkbox">
+                    <input type="checkbox" id="check"> Pulang Pergi
+                </label>
+            </div>
+            <div id="passengers">
+                <div id="dewasa">
+                    <p>Dewasa</p>
+                    <div id="boxd">
+                        <img src="icon/man.png" width="20px" style="position: relative; top: 3px;">
+                        <select id="number" style="border: none;">
+                            <option value="1">1</option>  
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        <p style="font-size: smaller;">Atas 3 tahun</p>
+                    </div>
+                </div>
+                <div id="bayi">
+                    <p>Bayi</p>
+                    <div id="boxb">
+                        <img src="icon/baby.png" width="20px" style="position: relative; top: 5px; left: 2px;">
+                        <select id="number" style="border: none;">
+                            <option value="0">0</option>  
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        <p style="font-size: smaller;">Bawah 3 tahun</p>
+                    </div>
+                </div>
+            </div>
+            <div id="search">
+                <input type="submit" value="Cari Tiket">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
